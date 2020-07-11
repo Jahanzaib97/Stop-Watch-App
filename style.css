@@ -1,0 +1,61 @@
+body{
+    background-color: brown;
+    text-align: center;
+    background-image: url("bg.jpg");
+    background-size: cover;
+
+}
+h1 {
+    color: white;
+    display: inline-block;
+    width: 50px;
+    background-color: darkgreen;
+    border: 1px solid lightseagreen;
+    border-radius: 10px;
+    margin-top: 63px;
+    font-family:'digital-clock-font';
+}
+.circle1 {
+    background-color: #ced022;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0 auto;
+    display: inline-block;
+}
+button.btn {
+    width: 90px;
+    height: 44px;
+    font-size: larger;
+    font-family: monospace;
+    font-weight: bolder;
+    border: 5px solid greenyellow;
+    /* padding: 3px 6px; */
+    margin-inline-start: 25px;
+    margin-top: 25px;
+}
+.buttons {
+    margin-top: 25px;
+    background-color: #478631;
+    height: 90px;
+    /* width: 420px; */
+    opacity: 0.9;
+}
+h1.heading1 {
+    /* background-color: coral; */
+    width: 275px;
+    height: 50px;
+    font-size: xxx-large;
+}
+button:focus {
+    background-color: yellow;
+  }
+  button:disabled {
+    background-color: darkgreen;
+    color: whitesmoke;
+}
+@font-face{
+    font-family:'digital-clock-font';
+    src: url('digital-7.ttf');
+   }
